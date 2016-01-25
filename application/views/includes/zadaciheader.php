@@ -1,0 +1,44 @@
+
+<div class="container">
+<div class="row">
+
+  <div class="col-sm-9">
+    <div >
+	   <h3>Welcome to Lists and Tasks!</h3>
+	    <p>Lists and Tasks is a simple and helpful application to help you manage your day to day tasks. You can add as many list and task as you want. Lists and Tasks is absolutely free! Have fun.</p>
+    </div>
+	
+	<div >
+	   <?php if($this->session->userdata('logged_in')) : ?>
+	   <a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-info" role="button">My Lists</a>
+       <?php endif; ?>
+    </div>
+		 
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="well">
+      <p><?php if($this->session->userdata('logged_in')) : ?>
+               Welcome,  <?php echo $this->session->userdata('username'); ?>
+             <?php else : ?>
+                <a href="<?php echo base_url(); ?>index.php/users/register" class="btn btn-info" role="button">Register</a>
+             <?php endif; ?></p>
+    </div>
+    <div class="well">
+       <p><?php $this->load->view('users/login'); ?></p>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
