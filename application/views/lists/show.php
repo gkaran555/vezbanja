@@ -4,12 +4,12 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-9">
-<a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-info" role="button">My Lists</a>
+<a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-danger" role="button">My Lists</a>
 
 <h4>List Actions</h4>
-<a href="<?php echo base_url(); ?>index.php/tasks/add/<?php echo $list->id; ?>" class="btn btn-info" role="button">Add Task</a>
-<a href="<?php echo base_url(); ?>index.php/lists/edit/<?php echo $list->id; ?>" class="btn btn-info" role="button">Edit List</a>
-<a onclick="return confirm('Are you sure?')"href="<?php echo base_url(); ?>index.php/lists/delete/<?php echo $list->id; ?>" class="btn btn-info" role="button">Delete List</a>
+<a href="<?php echo base_url(); ?>index.php/tasks/add/<?php echo $list->id; ?>" class="btn btn-danger" role="button">Add Task</a>
+<a href="<?php echo base_url(); ?>index.php/lists/edit/<?php echo $list->id; ?>" class="btn btn-danger" role="button">Edit List</a>
+<a onclick="return confirm('Are you sure?')"href="<?php echo base_url(); ?>index.php/lists/delete/<?php echo $list->id; ?>" class="btn btn-danger" role="button">Delete List</a>
 
 <h1><?php echo $list->list_name; ?></h1>
 <?php if($this->session->flashdata('task_deleted')) : ?>

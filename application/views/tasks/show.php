@@ -8,17 +8,17 @@
 
 
     <h4>Task Actions</h4>  
-    <a href="<?php echo base_url(); ?>index.php/tasks/add/<?php echo $task->list_id; ?>" class="btn btn-info" role="button">Add Task</a></li> 
-    <a href="<?php echo base_url(); ?>index.php/tasks/edit/<?php echo $task->id; ?>"class="btn btn-info" role="button">Edit Task</a></li> 
+    <a href="<?php echo base_url(); ?>index.php/tasks/add/<?php echo $task->list_id; ?>" class="btn btn-danger" role="button">Add Task</a></li> 
+    <a href="<?php echo base_url(); ?>index.php/tasks/edit/<?php echo $task->id; ?>"class="btn btn-danger" role="button">Edit Task</a></li> 
     <?php if($is_complete) : ?>
-         <a href="<?php echo base_url(); ?>index.php/tasks/mark_new/<?php echo $task->id; ?>"class="btn btn-info" role="button">Mark New</a></li> 
+         <a href="<?php echo base_url(); ?>index.php/tasks/mark_new/<?php echo $task->id; ?>"class="btn btn-danger" role="button">Mark New</a></li> 
     <?php else : ?>
-         <a href="<?php echo base_url(); ?>index.php/tasks/mark_complete/<?php echo $task->id; ?>"class="btn btn-info" role="button">Mark Complete</a></li> 
+         <a href="<?php echo base_url(); ?>index.php/tasks/mark_complete/<?php echo $task->id; ?>"class="btn btn-danger" role="button">Mark Complete</a></li> 
     <?php endif; ?>
-    <a onclick="return confirm('Are you sure?')" href="<?php echo base_url(); ?>index.php/tasks/delete/<?php echo $task->list_id; ?>/<?php echo $this->uri->segment(3); ?>"class="btn btn-info" role="button">Delete Task</a></li>
+    <a onclick="return confirm('Are you sure?')" href="<?php echo base_url(); ?>index.php/tasks/delete/<?php echo $task->list_id; ?>/<?php echo $this->uri->segment(3); ?>"class="btn btn-danger" role="button">Delete Task</a></li>
 
 <h1><?php echo $task->task_name; ?></h1>
-<ul id="info">
+<ul id="danger">
     <li>Created On: <strong><?php echo date("n-j-Y",strtotime($task->create_date)); ?></strong></li>
 
 <?php if($task->is_complete == 0) : ?>

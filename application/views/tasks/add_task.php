@@ -47,7 +47,7 @@ $data = array(
 <!--Submit Buttons-->
 <?php $data = array("value" => "Add Task",
                     "name" => "submit",
-                    "class" => "btn btn-info"); ?>
+                    "class" => "btn btn-danger"); ?>
 <p>
     <?php echo form_submit($data); ?>
 </p>

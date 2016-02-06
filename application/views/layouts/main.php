@@ -27,6 +27,7 @@
 <script src="<?php echo base_url()?>public/js/bootstrap.js"></script>
 <script src="<?php echo base_url()?>public/js/aaa.js"></script>
 <script src="<?php echo base_url()?>public/js/lightbox.min.js"></script>
+<script src="<?php echo base_url()?>public/js/bootstrap-portfilter.js"></script>
 
 </body>
 </html>

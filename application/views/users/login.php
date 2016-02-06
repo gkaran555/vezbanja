@@ -7,7 +7,7 @@
          <!--Submit Buttons-->
     <?php $data = array("value" => "Logout",
                     "name" => "submit",
-                    "class" => "btn btn-info"); ?>
+                    "class" => "btn btn-danger"); ?>
     <?php echo form_submit($data); ?>
     <?php echo form_close(); ?>
 <?php else : ?>
@@ -54,7 +54,7 @@ $data = array(
     <!--Submit Buttons-->
     <?php $data = array("value" => "Login",
                     "name" => "submit",
-                    "class" => "btn btn-info"); ?>
+                    "class" => "btn btn-danger"); ?>
     <?php echo form_submit($data); ?>
 </p>
 <?php echo form_close(); ?>

@@ -3,7 +3,7 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-9">
-<a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-info" role="button">My Lists</a>
+<a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-danger" role="button">My Lists</a>
 
 <h1>Add a List</h1>
 <p>Please fill out the form below to create a new task list</p>
@@ -36,7 +36,7 @@ $data = array(
 <!--Submit Buttons-->
 <?php $data = array("value" => "Add List",
                     "name" => "submit",
-                    "class" => "btn btn-info"); ?>
+                    "class" => "btn btn-danger"); ?>
 <p>
     <?php echo form_submit($data); ?>
 </p>

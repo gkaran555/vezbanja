@@ -5,15 +5,17 @@
 
 <div class="container-fluid bg-grey">
   
-  <h3 id="kontakt" class="text-left">CONTACT</h3>
+  <h4 id="kontakt" class="text-left">CONTACT</h4>
   
   <div class="row">
     <div class="col-sm-5">
+	 <div class="well">
       <p>Contact us and we'll get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> BEOGRAD - Makedonska 24</p>
       <p><span class="glyphicon glyphicon-phone"></span> 063/1844410</p>
       <p><span class="glyphicon glyphicon-envelope"></span> gkaran555@gmail.com</p> 
-    </div>
+     </div>
+	</div>
     <div class="col-sm-7 col-xs-6">
         <iframe class="map1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="436" height="300" 
 		src="https://maps.google.com/maps?hl=en&q=Beograd, Makedonska 24&ie=UTF8&t=roadmap&z=14&iwloc=B&output=embed">
@@ -30,10 +32,12 @@
   <hr/>
   <div class="row">
     <div class="col-sm-5">
+	 <div class="well">
       <p><span class="glyphicon glyphicon-map-marker"></span> MLADENOVAC - Kralja Aleksandra Obrenovića 36</p>
       <p><span class="glyphicon glyphicon-phone"></span> 061/1367402</p>
       <p><span class="glyphicon glyphicon-envelope"></span> ckagenda5@gmail.com</p> 
-    </div>
+     </div>
+	</div>
     <div class="col-sm-7 col-xs-6">
         <iframe class="map1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="436" height="300" 
 		src="https://maps.google.com/maps?hl=en&q=MLADENOVAC, Kralja Aleksandra Obrenovića 36&ie=UTF8&t=roadmap&z=16&iwloc=B&output=embed">

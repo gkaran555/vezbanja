@@ -10,7 +10,7 @@
 	
 	<div >
 	   <?php if($this->session->userdata('logged_in')) : ?>
-	   <a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-info" role="button">My Lists</a>
+	   <a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-danger" role="button">My Lists</a>
        <?php endif; ?>
     </div>
 		 
@@ -21,10 +21,14 @@
       <p><?php if($this->session->userdata('logged_in')) : ?>
                Welcome,  <?php echo $this->session->userdata('username'); ?>
              <?php else : ?>
-                <a href="<?php echo base_url(); ?>index.php/users/register" class="btn btn-info" role="button">Register</a>
+                <a href="<?php echo base_url(); ?>index.php/users/register" class="btn btn-danger" role="button">Register</a>
              <?php endif; ?></p>
     </div>
     <div class="well">
+	<?php if($this->session->flashdata('registered')) : ?>
+    <?php echo '<p class="text-success">' .$this->session->flashdata('registered') . '</p>'; ?>
+    <?php endif; ?>
+	
        <p><?php $this->load->view('users/login'); ?></p>
     </div>
   </div>

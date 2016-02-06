@@ -22,7 +22,7 @@
   position:relative;
   bottom:80px;
   visibility:hidden;
-  color:white;
+  color:black;
      
 }
 
@@ -64,16 +64,13 @@
 } */
 
 
-#aaa { 
-  background-color: yellow;
-  width: 500px;
-  height: auto;
-  border: 1px solid;
-  padding: 15px;
-}	
+#red { 
+  margin-bottom: 45px;
+}
+	
 #aaa>div { 
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 1px solid;
   float: left;
 }
@@ -84,25 +81,11 @@
   
 }
 
-@media only screen and (max-width: 767px) {
-  #aaa { 
-  width: 500px;
-  height: 420px;
-  }
-  #aaa>div { 
-  width: 110px;
-  height: 110px;
-  }
-}
 	
 @media only screen and (max-width: 400px) {
-  #aaa { 
-  width: 270px;
-  height: 620px;
-  }
   #aaa>div { 
-  width: 110px;
-  height: 110px;
+  width: 100%;
+  height: 100%;
   }
 }
 	
@@ -112,13 +95,33 @@
 #fontovi{ 
   font-family: 'Playfair Display SC', serif;
   text-transform:uppercase;
-  font-weight:900;
-  color:#1882B8;
+  color:black;
 }
-#fontovi li{ 
+#fontovi li>a { 
+  font-family: 'Playfair Display SC', serif;
+  text-transform:uppercase;
+  color:black;
+    
+}
+
+#kontakt{ 
+  color:black;
+  font-family: 'Playfair Display SC', serif;
+         
+}
+#fontovi1{ 
   font-family: 'Playfair Display SC', serif;
   text-transform:uppercase;
   font-weight:900;
+  color:yellow;
+}
+
+#source button{ 
+  color:black;
+  font-family: 'Playfair Display SC', serif;
+  background-color: yellow;
+  margin-bottom: 4px;
+       
 }
 
 
@@ -138,19 +141,13 @@
   }
 }	
 
-#kontakt{ 
-  color:#1882B8;
-  font-family: 'Playfair Display SC', serif;
-       
-}
-
 
 
 /* Games */
 
   
 div#memory_board{
-	background:yellow;
+	background:#ffff66;
 	border:#999 1px solid;
 	width:500px;
 	height:350px;
@@ -166,6 +163,7 @@ div#memory_board > div{
 	font-size:64px;
 	cursor:pointer;
 	text-align:center;
+	
 }
 
 #my_canvas{ 
@@ -248,6 +246,79 @@ div.dice{
 }
 
 
+/* what we do */
+
+#whatwe { 
+   margin-bottom: 20px;
+     
+}
+#whatwe1 { 
+   margin-bottom: 40px;
+  
+}
+
+
+.img22 {
+  position: relative;
+  border: 2px solid #f00;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  margin: 3px 3px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  transition: all 1s ease 0s;
+  overflow: hidden;
+  background: yellow;
+  opacity: 0.5;
+  color: #061D25;
+  
+}
+
+.overlay h3{
+  text-align: center;
+  color: #061D25;
+  
+}
+
+.img22:hover .overlay,
+.overlay:hover {
+  height: 100%;
+  background: red;
+  opacity: 0.8;
+}
+
+.img22 > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+ .img22 {
+  width: 80%;
+    
+  }
+}
+	
+@media only screen and (max-width: 340px) {
+ .img22 {
+  width: 100%;
+    
+  }
+}
+
+
+
 /* Footer */
 
 .footer {
@@ -306,5 +377,8 @@ div.dice{
 /* end Footer */
 
 
-
+.well {
+  background: yellow;
+     
+}
 

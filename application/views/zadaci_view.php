@@ -3,9 +3,7 @@
 <?php $this->load->view('includes/zadaciheader'); ?>
 
 <!--Display Messages-->
-<?php if($this->session->flashdata('registered')) : ?>
-    <?php echo '<p class="text-success">' .$this->session->flashdata('registered') . '</p>'; ?>
-<?php endif; ?>
+
 <?php if($this->session->flashdata('logged_out')) : ?>
     <?php echo '<p class="text-success">' .$this->session->flashdata('logged_out') . '</p>'; ?>
 <?php endif; ?>
@@ -35,7 +33,7 @@
     <?php $data = array("value" => "add",
                     "name" => "submit",
                     "style"=> "vertical-align:top;",
-                    "class" => "btn btn-info"); ?>
+                    "class" => "btn btn-danger"); ?>
     <?php echo form_submit($data); ?>
      <?php echo form_close(); ?>
 </p>

@@ -3,19 +3,17 @@
 <?php $this->load->view('includes/header'); ?>
 
 <div class="container-fluid">
-  <div class="row content">
+  <div class="row content" id="red">
     <div class="col-sm-3 sidenav">
-      <h5 id="fontovi">Gallery</h5>
+      <h4 id="fontovi">Gallery</h4>
       <ul class="nav nav-pills nav-stacked" id="fontovi">
         <li class="active"><a href="#section1">Movies</a></li>
         <li><a href="<?php echo base_url(); ?>index.php/gallery1/index">Movies 2</a></li>
-        <li><a href="#section3">Family</a></li>
-        <li><a href="#section3">Nature</a></li>
       </ul>
     </div>
 
     <div class="col-sm-9" id="aaa">
-      <h5 id="fontovi">RECENT POSTS</h5>
+      <h4 id="fontovi">RECENT POSTS</h4>
       
 	   
       <div>

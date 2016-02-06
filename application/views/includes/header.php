@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" id="fontovi" href="<?php echo base_url(); ?>index.php/home">GK</a>
+      <a class="navbar-brand" id="fontovi1" href="<?php echo base_url(); ?>index.php/home">GK</a>
     </div>
 	
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -30,6 +30,7 @@
         <li><a href="<?php echo base_url(); ?>index.php/games">Games</a></li>
 		<li><a href="<?php echo base_url(); ?>index.php/gallery">Gallery</a></li> 
 		<li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li> 
+		<li><a href="<?php echo base_url(); ?>index.php/whatwedo">What We Do</a></li> 
 		<li><a href="<?php echo base_url(); ?>index.php/zadaci">Lists and Tasks</a></li>
                
       </ul>

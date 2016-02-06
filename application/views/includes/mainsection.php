@@ -1,5 +1,5 @@
 <div class="container text-center">    
-  <h3>What We Do</h3>
+  <h3>Service</h3>
   <br>
   <div class="row">
     <div class="col-sm-3 animated fadeInLeft" id="maleslike">

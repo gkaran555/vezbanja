@@ -22,7 +22,7 @@ class Users extends CI_Controller{
            if($this->User_model->create_member()){
                 $this->session->set_flashdata('registered', 'You are now registered, please log in');
                 //Redirect to index page with error above
-                redirect('home/index');
+                redirect('zadaci/index');
            }
         }
     }
