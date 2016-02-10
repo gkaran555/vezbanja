@@ -5,12 +5,10 @@
 
 <div class="container-fluid bg-grey">
   
-  <h4 id="kontakt" class="text-left">CONTACT</h4>
-  
   <div class="row">
     <div class="col-sm-5">
 	 <div class="well">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p class="prvarec"><span>Contact</span> us and we'll get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> BEOGRAD - Makedonska 24</p>
       <p><span class="glyphicon glyphicon-phone"></span> 063/1844410</p>
       <p><span class="glyphicon glyphicon-envelope"></span> gkaran555@gmail.com</p> 
@@ -30,7 +28,7 @@
     </div>
   </div>
   <hr/>
-  <div class="row">
+  <div class="row" id="whatwe1">
     <div class="col-sm-5">
 	 <div class="well">
       <p><span class="glyphicon glyphicon-map-marker"></span> MLADENOVAC - Kralja Aleksandra Obrenovića 36</p>

@@ -2,8 +2,8 @@
 
 
 <div class="container">
-<div class="row">
-<div class="col-sm-9">
+<div class="row" id="whatwe1">
+<div class="col-sm-12">
 
 
 
@@ -17,21 +17,21 @@
     <?php endif; ?>
     <a onclick="return confirm('Are you sure?')" href="<?php echo base_url(); ?>index.php/tasks/delete/<?php echo $task->list_id; ?>/<?php echo $this->uri->segment(3); ?>"class="btn btn-danger" role="button">Delete Task</a></li>
 
-<h1><?php echo $task->task_name; ?></h1>
-<ul id="danger">
+  <h1><?php echo $task->task_name; ?></h1>
+  <ul id="danger">
     <li>Created On: <strong><?php echo date("n-j-Y",strtotime($task->create_date)); ?></strong></li>
 
-<?php if($task->is_complete == 0) : ?>
+ <?php if($task->is_complete == 0) : ?>
     <li>Status: <strong>Uncomplete</strong></li>
-<?php else : ?>
+ <?php else : ?>
     <li>Status: <strong>Completed</strong></li>
-<?php endif; ?>
+ <?php endif; ?>
 
-<li>Due Date: <strong><?php echo date("n-j-Y",strtotime($task->create_date)); ?></strong></li>
-</ul><br />
-<div style="max-width:500px;"><?php echo $task->task_body; ?></div>
-<br /><hr />
-<- Go Back to <a href="<?php echo base_url(); ?>index.php/lists/show/<?php echo $task->list_id; ?>"><?php echo $task->list_name; ?></a>
+ <li>Due Date: <strong><?php echo date("n-j-Y",strtotime($task->create_date)); ?></strong></li>
+ </ul><br />
+ <div style="max-width:500px;"><?php echo $task->task_body; ?></div>
+ <br /><hr />
+ <- Go Back to <a href="<?php echo base_url(); ?>index.php/lists/show/<?php echo $task->list_id; ?>"><?php echo $task->list_name; ?></a>
 
 </div>
 </div>

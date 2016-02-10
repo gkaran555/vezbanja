@@ -7,7 +7,7 @@
 	<a href="#"><i class="fa fa-youtube"></i></a>
     <a href="#"><i class="fa fa-twitter"></i></a>
     <a href="https://www.linkedin.com/in/g-karan-05331395?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
-    
+    <a href="https://github.com/gkaran555"><i class="fa fa-github-square"></i></a>
   </div>
      
 </footer>

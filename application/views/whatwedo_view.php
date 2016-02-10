@@ -1,12 +1,10 @@
 <?php $this->load->view('includes/header'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <div class="row" id="whatwe">
-<div class="col-sm-12" >
-
-   <h4 id="kontakt" class="text-left">PORTFOLIO</h4>
+<div class="col-sm-12">
    
-    <div class="pull-left" id="source">
+    <div id="source">
 	  <button class="btn btn-small" data-toggle="portfilter" data-target="all">
 	   All
 	  </button>
@@ -45,15 +43,7 @@
 		  </div>
         </div>
 		
-        <div class="img22" data-tag='art'>
-          <img src="<?php echo base_url()?>public/img/klimt35.jpg" />
-          <div class="overlay">
-		   <a href="#"><h3>Hello!</h3></a>
-		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-		  </div>
-        </div>
-				
-		<div class="img22" data-tag='art'>
+   		<div class="img22" data-tag='art'>
           <img src="<?php echo base_url()?>public/img/op_blackness.jpg" />
           <div class="overlay">
 		   <a href="#"><h3>Hello!</h3></a>
@@ -61,14 +51,14 @@
 		  </div>
         </div>
 				
-		<div class="img22" data-tag='media'>
+		<div class="img22" data-tag='art'>
           <img src="<?php echo base_url()?>public/img/op_thetower.jpg" />
           <div class="overlay">
 		   <a href="#"><h3>Hello!</h3></a>
 		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 		  </div>
         </div>
-		<div class="img22" data-tag='media'>
+		<div class="img22" data-tag='art'>
           <img src="<?php echo base_url()?>public/img/op_urbanlandscape.jpg" />
           <div class="overlay">
 		   <a href="#"><h3>Hello!</h3></a>

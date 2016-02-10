@@ -74,7 +74,7 @@ function memoryFlipTile(tile,val){
 <?php $this->load->view('includes/header'); ?>
 
 <div class="container">
-  <h4 id="fontovi"> GAMES</h4>
+  
   <ul class="nav nav-pills" id="fontovi">
     <li class="active"><a data-toggle="pill" href="#home">MEMORYGAME</a></li>
     <li><a data-toggle="pill" href="#menu1">HITGAME</a></li>
@@ -92,7 +92,7 @@ function memoryFlipTile(tile,val){
     
 	<div id="menu1" class="tab-pane fade">
 	 <p>
-  	  <canvas id="my_canvas" width="500" height="350"></canvas>
+  	  <canvas id="my_canvas" width="450" height="310"></canvas>
         <div>
           <button id="left_btn">Move Left</button>
 		  <button id="fire_btn">Fire Missile</button>

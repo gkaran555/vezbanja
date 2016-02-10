@@ -1,5 +1,43 @@
 
 
+/* Navbar */
+
+#myNavbar { 
+  background: #ed252b;
+  text-transform:uppercase;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 900;
+  font-size:17px;
+     
+}
+
+#myNavbar>ul>li:hover{ 
+  background: #061D25 !important;
+  
+}
+#myNavbar>ul>li>a { 
+    color:#fff;
+ 
+}
+
+.dropdown-menu>li>a:hover{ 
+  background: #ed252b;
+  
+}
+
+.navbar-header{ 
+  background: #ed252b;
+  text-transform:uppercase;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 900;
+  font-size:30px;
+       
+}
+
+.navbar-header:hover{ 
+  background: #061D25;
+  
+}
 
 /* Homepageimage */
 
@@ -42,214 +80,10 @@
 }
 
 
-
-/* Gallery */
-
-/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-/* .row.content {height: 700px} */
-    
-/* Set gray background color and 100% height */
-/* .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-} */
-    
-/* On small screens, set height to 'auto' for sidenav and grid */
-/* @media screen and (max-width: 767px) {
-  .sidenav {
-     height: auto;
-     padding: 15px;
-  }
-  .row.content {height: auto;} 
-} */
-
-
-#red { 
-  margin-bottom: 45px;
-}
-	
-#aaa>div { 
-  width: 200px;
-  height: 200px;
-  border: 1px solid;
-  float: left;
-}
-
-#aaa>div>img { 
-  width: 100%;
-  height: 100%;
-  
-}
-
-	
-@media only screen and (max-width: 400px) {
-  #aaa>div { 
-  width: 100%;
-  height: 100%;
-  }
-}
-	
-
-/* Fonts */
-
-#fontovi{ 
-  font-family: 'Playfair Display SC', serif;
-  text-transform:uppercase;
-  color:black;
-}
-#fontovi li>a { 
-  font-family: 'Playfair Display SC', serif;
-  text-transform:uppercase;
-  color:black;
-    
-}
-
-#kontakt{ 
-  color:black;
-  font-family: 'Playfair Display SC', serif;
-         
-}
-#fontovi1{ 
-  font-family: 'Playfair Display SC', serif;
-  text-transform:uppercase;
-  font-weight:900;
-  color:yellow;
-}
-
-#source button{ 
-  color:black;
-  font-family: 'Playfair Display SC', serif;
-  background-color: yellow;
-  margin-bottom: 4px;
-       
-}
-
-
-/* Contact */
-
-@media only screen and (max-width: 450px) {
- .map1{ 
-  display: none;
-    
-  }
-}	
-
-@media only screen and (min-width: 450px) {
- .map2{ 
-  display: none;
-    
-  }
-}	
-
-
-
-/* Games */
-
-  
-div#memory_board{
-	background:#ffff66;
-	border:#999 1px solid;
-	width:500px;
-	height:350px;
-	padding:24px;
-	
-}
-div#memory_board > div{
-	background: url(tile_bg.jpg) no-repeat;
-	border:#000 1px solid;
-	width:71px;
-	height:71px;
-	float:left;
-	font-size:64px;
-	cursor:pointer;
-	text-align:center;
-	
-}
-
-#my_canvas{ 
-    background:#FFF; 
-    border:#000 1px solid; 
-	margin-top:10px;
-	
-}
-
-div.dice{
-	float:left;
-	width:32px;
-	background:#F5F5F5;
-	border:#999 1px solid;
-	padding:10px;
-	font-size:24px;
-	text-align:center;
-	margin:5px;
-}
-
-
-@media only screen and (max-width: 450px) {
-  div#memory_board { 
-  width: 280px;
-  height: 280px;
-  }
-  div#memory_board > div { 
-  width: 45px;
-  height: 45px;
-  font-size:30px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  #my_canvas { 
-  width: 280px;
-  height: 280px;
-  }
-}
-
-
-
-/* Navbar */
-
-#myNavbar { 
-  background: #ed252b;
-  text-transform:uppercase;
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 900;
-  font-size:17px;
-     
-}
-
-#myNavbar>ul>li:hover{ 
-  background: #061D25 !important;
-  
-}
-#myNavbar>ul>li>a { 
-    color:#fff;
- 
-}
-
-.dropdown-menu>li>a:hover{ 
-  background: #ed252b;
-  
-}
-
-.navbar-header{ 
-  background: #ed252b;
-  text-transform:uppercase;
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 900;
-  font-size:30px;
-       
-}
-
-.navbar-header:hover{ 
-  background: #061D25;
-  
-}
-
-
 /* what we do */
 
 #whatwe { 
-   margin-bottom: 20px;
+   margin-bottom: 15px;
      
 }
 #whatwe1 { 
@@ -291,7 +125,7 @@ div.dice{
 .img22:hover .overlay,
 .overlay:hover {
   height: 100%;
-  background: red;
+  background: #ed252b;
   opacity: 0.8;
 }
 
@@ -303,20 +137,133 @@ div.dice{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 570px) {
  .img22 {
   width: 80%;
     
   }
 }
 	
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 400px) {
  .img22 {
   width: 100%;
     
   }
 }
 
+
+
+/* Gallery */
+
+	
+#aaa>div { 
+  width: 195px;
+  height: 275px;
+  display: inline-block;
+}
+
+#aaa>div>img { 
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+	
+@media only screen and (max-width: 450px) {
+  #aaa>div { 
+  width: 100%;
+  height: 100%;
+  }
+}
+	
+
+
+
+/* Games */
+
+  
+div#memory_board{
+	background:#ffff66;
+	border:#999 1px solid;
+	width:450px;
+	height:310px;
+	padding: 10px;
+	
+}
+div#memory_board > div{
+	background: url(tile_bg.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	
+}
+
+#my_canvas{ 
+    background:#FFF; 
+    border:#000 1px solid; 
+	margin-top:10px;
+	
+}
+
+div.dice{
+	float:left;
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+
+@media only screen and (max-width: 450px) {
+  div#memory_board { 
+  width: 245px;
+  height: 350px;
+  }
+  div#memory_board > div { 
+  width: 55px;
+  height: 55px;
+  font-size:30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #my_canvas { 
+  width: 280px;
+  height: 280px;
+  }
+}
+
+
+
+/* Contact */
+
+
+@media only screen and (max-width: 450px) {
+ .map1{ 
+  display: none;
+    
+  }
+}	
+
+@media only screen and (min-width: 450px) {
+ .map2{ 
+  display: none;
+    
+  }
+}
+	
+.prvarec> span {
+  text-transform: uppercase;
+  font-weight:900;
+}
 
 
 /* Footer */
@@ -374,11 +321,72 @@ div.dice{
     transition: all .5s ease;
 }
 
+.footer .fa-github-square:hover{
+    color: #333;
+	-webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
 /* end Footer */
+
 
 
 .well {
   background: yellow;
      
 }
+
+/* Fonts */
+
+#fontovi{ 
+  font-family: 'Playfair Display SC', serif;
+  text-transform:uppercase;
+  color:black;
+}
+#fontovi li>a { 
+  font-family: 'Playfair Display SC', serif;
+  text-transform:uppercase;
+  color:black;
+  background-color: yellow;
+  margin-bottom: 3px;
+    
+}
+
+#fontovi li>a:hover{ 
+  background-color: #ed252b;
+    
+}
+
+#fontovi1{ 
+  font-family: 'Playfair Display SC', serif;
+  text-transform:uppercase;
+  font-weight:900;
+  color:yellow;
+}
+
+#source button{ 
+  color:black;
+  font-family: 'Playfair Display SC', serif;
+  background-color: yellow;
+  margin-bottom: 4px;
+       
+}
+
+#source button:hover{ 
+  background-color: #ed252b;
+       
+}
+
+.btn-danger {
+   background-color: yellow;
+   color:black;
+   margin-bottom: 4px;
+}
+
+
+.btn-danger:hover{
+   background-color: #ed252b;
+   
+}
+
 
