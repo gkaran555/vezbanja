@@ -289,7 +289,9 @@ div.dice{
 .footer a:first-child {
     border-left: 1px solid #70726F;
 }
-
+.footer a:hover {
+    background-color: yellow;
+}
 
 .footer .fa-facebook:hover{
     color: #3B5998;

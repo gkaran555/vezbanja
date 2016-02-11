@@ -19,7 +19,9 @@
 <div class="row">
 <div class="col-sm-4">
 
-
+     <div >
+	   <a href="<?php echo base_url(); ?>index.php/lists/index" class="btn btn-danger" role="button">My Lists</a>
+     </div>
 
 <!--Display Errors-->
 <?php echo validation_errors('<p class="text-error">'); ?>
