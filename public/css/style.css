@@ -60,7 +60,7 @@
   position:relative;
   bottom:80px;
   visibility:hidden;
-  color:black;
+  color:white;
      
 }
 
@@ -334,10 +334,16 @@ div.dice{
 
 
 .well {
-  background: yellow;
-     
+  border: 0.5px solid yellow;
+  transition: all 0.4s ease 0s; 
+  color: #30a541;
+  background-color: white;
 }
 
+.well:hover {
+   transform: rotate(7deg);
+     
+}
 /* Fonts */
 
 #fontovi{ 
